@@ -1,0 +1,33 @@
+{
+	"color_scheme": "Packages/User/Espresso Soda (SL).tmTheme",
+	"ensure_newline_at_eof_on_save": true,
+	"font_face": "Menlo",
+	"font_options":
+	[
+		"subpixel_antialias"
+	],
+	"font_size": 13,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Theme - Flatland",
+		"Vintage"
+	],
+	"line_padding_bottom": 2,
+	"line_padding_top": 10,
+	"open_files_in_new_window": false,
+	"rulers":
+	[
+		112,
+		119
+	],
+	"soda_classic_tabs": true,
+	"soda_folder_icons": true,
+	"spell_check": true,
+	"tab_size": 4,
+	"theme": "Soda Light 3.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
+	"typescript_plugin_tsc_version": "1.7.2"
+}
