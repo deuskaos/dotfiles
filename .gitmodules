@@ -1,0 +1,3 @@
+[submodule "sublime/Packages/Theme - Soda"]
+	path = sublime/Packages/Theme - Soda
+	url = git@github.com:buymeasoda/soda-theme.git

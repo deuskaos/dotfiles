@@ -2,7 +2,7 @@
 	name = Kiroushi
 	email = kiroushi@gmail.com
 [core]
-	editor = vim
+	editor = sublime
 	whitespace = fix,-indent-with-non-tab,trailing-space,cr-at-eol
 	excludesfile = ~/.gitignore
 [web]
