@@ -29,6 +29,11 @@ link() {
 # git clone --recursive git://github.com/kiroushi/dotfiles.git .dotfiles
 
 if [[ `uname` == 'Darwin' ]]; then
+
+  # Package Control
+  pc="Package Control.sublime-package"
+  link "$dotfiles/sublime/Packages/Package Control/$pc" "$HOME/Library/Application Support/Sublime Text 3/Installed Packages/$pc"
+
     for setting in $dotfiles/sublime/Packages/User/*.sublime-settings; do
       link "$setting" "$HOME/Library/Application Support/Sublime Text 3/Packages/User/${setting##*/}"
     done
