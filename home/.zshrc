@@ -83,6 +83,13 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-export NVM_DIR="/Users/kiroushi/.nvm"
+if [[ `uname` == 'Darwin' ]];
+    then
+        export NVM_DIR="/Users/kiroushi/.nvm"
+    else
+        export NVM_DIR="/home/kiroushi/.nvm"
+fi
+
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+
 export PATH="/usr/local/sbin:$PATH"
